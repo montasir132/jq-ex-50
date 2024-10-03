@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!--required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JQ50ex</title>
+    <!--favicon link-->
+    <link rel="icon" type="image/png" href="#">
+    <!--icon link-->
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <!--css links-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- ex1 -->
+      <h2>click the button  to show alert</h2>
+      <button class="btn btn-dark" id="btn">show Alert</button><hr>
+
+      <!-- ex2 -->
+      <h2>click the button  to show/hide the element</h2>
+      <button class="btn btn-dark" id="btns">show</button>
+      <button class="btn btn-dark" id="btnh">hide</button>
+      <h4 id="sh1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4><hr>
+
+      <!-- ex3 -->
+      <h2>click the button  to show/hide/toggle the element</h2>
+      <button class="btn btn-dark" id="btns1">Show</button>
+      <button class="btn btn-dark" id="btnh1">Hide</button>
+      <button class="btn btn-dark" id="btnt1">Toggle</button>
+      <h4 id="sh2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4><hr>
+
+      <!-- ex4 -->
+      <h2>click the button  to fade(Out/In/Toggle) the element</h2>
+      <button class="btn btn-dark" id="btnout">hide</button>
+      <button class="btn btn-dark" id="btnin">show</button>
+      <button class="btn btn-dark" id="btntoggle">Toggle</button>
+      <h4 id="oit">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4><hr>
+
+      <!-- ex5 -->
+      <h2>click the sentent to slideUp the element</h2>
+      <h3 id="p1">hi</h3>
+      <h3 id="p2">how are you</h3>
+      <h3 id="p3">What I do you</h3><hr>
+
+      <!-- ex6 -->
+      <div class="ques bg-danger">
+        <h1 class="m-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h1>
+      </div>
+      <div class="answ bg-success">
+        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque fuga deleniti, consequuntur sed suscipit excepturi dignissimos hic repellat obcaecati culpa voluptas velit aperiam quisquam quod ullam quis aspernatur laudantium in.</p>
+      </div><hr>
+      <!-- ex7-->
+      <h2>click the button  to Change Text </h2>
+      <p id="text">Original Text</p>
+      <button id="changeText">Change Text</button><hr>
+      <!-- ex8-->
+      <h2>click the button  to Hide an Element </h2>
+      <div id="box">This is a box.</div>
+      <button id="hideButton">Hide</button><hr>
+      <!-- ex9-->
+      <h2>click the button  to Change Background Color</h2>
+      <div id="colorBox">Color Me!</div>
+      <button id="changeColor">Change Color</button><hr>
+      <!-- ex10-->
+      <h2>click the button  to Form Submission Alert</h2>
+      <form id="alertForm">
+        <input type="text" id="username">
+        <button type="submit">Submit</button>
+      </form><hr>
+      <!-- ex11-->
+      <h2>click the button  to Validation of Input</h2>
+      <input type="email" id="email">
+      <button id="validateEmail">Validate</button><hr>
+      <!-- ex12-->
+      <h2>click the button  to Display Form Data</h2>
+      <form id="infoForm">
+        <input type="text" id="info" placeholder="Enter info">
+        <button type="submit">Show Info</button>
+      </form>
+      <div id="infoDisplay"></div><hr>
+      <!-- ex13-->
+      <h2>click the button  to Reset Form Fields</h2>
+      <form id="resetForm">
+        <input type="text" id="nameField">
+        <button type="reset">Reset</button>
+      </form>
+      <button id="resetButton">Reset Fields</button><hr>
+      <!-- ex14-->
+      <h2>click the button  to Dynamic Form Fields</h2>
+      <div id="dynamicForm">
+        <input type="text" class="dynamicField">
+      </div>
+      <button id="addField">Add Field</button><hr>
+      <!-- ex15-->
+      <h2>click the button  to Mouse Over Event</h2>
+      <div id="hoverBox" style="width:100px; height:100px; background-color:blue;"></div>
+      <!-- ex16-->
+      <h2>click the button  toDouble Click Event</h2>
+      <div id="dblClickBox">Double Click Me!</div><hr>
+      <!-- ex17-->
+      <h2>click the button  to Key Press Event</h2>
+      <input type="text" id="keyInput"><hr>
+      <!-- ex18-->
+      <h2>click the button  to Focus and Blur Events</h2>
+      <input type="text" id="focusInput"><hr>
+      <!-- ex19-->
+      <h2>click the button  to Window Resize Event</h2>
+      <hr>
+      <!-- ex20-->
+      <h2>click the button to Load Content with AJAX</h2>
+      <button id="loadContent">Load Content</button>
+      <div id="contentArea"></div><hr>
+      <!-- ex21-->
+      <h2>click the button  to Window Resize Event</h2>
+      <button id="getRequest">Get Data</button><hr>
+      <!-- ex22-->
+      <h2>click the button  to AJAX POST Request</h2>
+      <button id="postRequest">Send Data</button><hr>
+      <!-- ex23-->
+      <h2>click the button  to AJAX Error Handling</h2>
+      <button id="errorRequest">Request Data</button><hr>
+      <!-- ex24-->
+      <h2>click the button  to AJAX Load and Error Handling</h2>
+      <button id="ajaxLoad">Load Data</button>
+      <div id="ajaxContent"></div>
+      <hr>
+      <!-- ex25-->
+      <h2>click the button  to Fade In Effect</h2>
+      <div id="fadeBox" style="display:none;">I will fade in!</div>
+      <button id="fadeIn">Fade In</button><hr>
+      <!-- ex26-->
+      <h2>click the button  to Fade Out Effect</h2>
+      <div id="fadeOutBox">I will fade out!</div>
+      <button id="fadeOut">Fade Out</button>
+      <hr>
+      <!-- ex27-->
+      <p class="c_p">Click the text below to hide/show</p>
+      <a href="#" class="a1">Click to hide me too</a> <hr>
+      <!-- ex28-->
+      <p class="c_p">Click the text below to toggle</p>
+      <button class="btn bg-dark text-primary b1">Button</button>
+      <a href="#" class="a2">Click to hide me too</a> <hr>
+      <!-- ex 29 -->
+      <p class="c_p">Click the text below to animate</p>
+      <button id="b2">Run</button>
+      <div id="d1">Hello!</div> <hr>
+      <!-- ex 30-->
+      <p class="c_p">Remove from the queue all items that have not yet been run</p>
+      <button id="b3">Start</button>
+      <button id="b4">Stop</button>
+      <div class="d2"></div> <hr>
+
+      <!-- ex 31 -->
+      <p class="c_p">Set a timer to delay execution of subsequent items in the queue</p>
+      <p><button class="b5">Run</button></p>
+      <div class="d3"></div>
+      <div class="d4"></div> <hr>
+
+      <!-- ex 32 -->
+      <div class="pos">
+        <p class="c_p">Execute the next function on the queue for the matched elements</p>
+        <button class="b6">Start</button>
+        <div class="d5"></div> 
+      </div> <hr>
+
+      <!-- ex33 -->
+      <div class="co">
+      <div class="d6"></div>
+      <p class="c_p"> complete all animations for the matched elements.</p>
+      <div id="d7">
+        <button id="go" class="b7">Go</button>
+        <br>
+        <button id="bstt" class="b b7">.stop( true,true )</button>
+        <button id="bcf" class="b b7">.clearQueue().finish()</button>
+        <br>
+        <button id="bstf" class="b b7">.stop( true, false )</button>
+        <button id="bcs" class="b b7">.clearQueue().stop()</button>
+        <br>
+        <button id="bsff" class="b b7">.stop( false, false )</button>
+        <button id="bs" class="b b7">.stop()</button>
+        <br>
+        <button id="bsft" class="b b7">.stop( false, true )</button>
+        <br>
+        <button id="bf" class="b">.finish()</button>
+      </div>
+      </div> <hr>
+
+
+    <!-- ex34 -->
+    <input type="button" value="Run" class="i1">
+      <div class="d8"></div> <hr>
+
+    <!-- ex35 --> <br>
+    <div class="io">
+      <button id="og" class="b9">Go</button>
+      <button id="top" class="b9">STOP!</button>
+      <button id="back" class="b9">Back</button>
+    <div class="d9"></div> <hr>
+    </div>
+
+    <!-- ex36 -->
+    <div class="sa">
+    <p class="p1">
+      Let it be known that the party of the first part
+      and the party of the second part are henceforth
+      and hereto directed to assess the allegations
+      for factual correctness... (<a href="#" class="a2">click!</a>)
+      <div id="d10"><span class="spa">RESTRICTED!</span></div>
+    </p>
+  </div> <hr>
+
+
+    <!-- ex37 -->
+    <button id="btn1">fade out</button>
+    <button id="btn2">show</button>
+  
+    <div id="log"></div>
+  
+  <div id="box1" class="box">linear</div>
+  <div id="box2" class="box">swing</div> <hr>
+ 
+  <!-- ex38 -->
+ <div class="havi">
+   <p class="pop">And this is the library that John built</p>
+   <div id="one"></div>
+   <div id="two"></div>
+   <div id="three"></div>
+ </div> <hr>
+
+
+ <!-- ex39--> 
+ <button class="b10">fadeToggle p1</button>
+ <p class="pup">This paragraph has a slow, linear fade.</p>
+ <hr>
+
+ <!-- ex40 -->
+ <button class="pao">Click me!</button>
+ <div class="d11"></div>
+ <div class="d11"></div>
+ <div class="d11"></div>
+ <hr>
+
+ <!-- ex41 -->
+ <button class="b12">Toggle</button>
+ <p class="shao">
+   This is the paragraph to end all paragraphs.  You
+   should feel
+ </p> <hr>
+
+ <!-- ex42 --> <br>
+ <button class="lao">Click me!</button>
+ <div class="d12"></div>
+ <div class="d12"></div>
+ <div class="d12"></div>
+ <div class="d12"></div>
+ <div class="d12"></div> <hr>
+
+ <!-- ex43 --> <br>
+ <button class="btn btn-info b13">after</button>
+ <div class="box23">
+   <p class="mb-0">montasir</p>
+ </div> <hr>
+
+ <!-- ex44 --> <br>
+ <button class="btn btn-info b14">before </button>
+ <div class="box24">
+   <p class="mb-0">montasir</p>
+ </div> <hr>
+
+ <!-- ex45 --> <br>
+ <button class="btn btn-info b15">find name</button>
+ <div class="box22">
+   <p class="mb-0">Name</p>
+   <p class="mb-0">Roll</p>
+   <p class="mb-0">Name</p>
+ </div> <hr>
+
+ <!-- ex46--> <br>
+ <button class="btn btn-warning b16">font size</button>
+ <button class="btn btn-warning b17">font weight</button>
+ <button class="btn btn-warning b18">font family</button>
+ <button class="btn btn-warning b19">color</button>
+ <div class="box20">
+   <p>MD Montasir</p>
+ </div> <hr>
+
+ <!-- ex47 --> <br>
+   <h3 class="mb-0">slide up</h3>
+  <div class="box19">
+   <p class="mb-0 bg-success">Lorem, ipsum dolor.</p>
+   <p class="mb-0 bg-success">Lorem, ipsum dolor.</p>
+   <p class="mb-0 bg-success">Lorem, ipsum dolor.</p>
+ </div> <hr>
+
+ <!-- ex48 --> <br>
+ <button class="btn btn-danger b20">right</button>
+ <button class="btn btn-danger b21">left</button>
+ <div class="box18"></div> <hr>
+ 
+ <!-- ex49 --> <br>
+ <button class="btn btn-warning b22">dubble click</button>
+ <div class="box25"></div> <hr>
+
+ <!-- ex50 --> <br>
+ <button class="btn btn-warning b23">color change</button>
+ <div class="box16">
+   <p>Color</p>
+ </div> <hr>
+
+  
+      
+      
+    </div>
+    <!--js links-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
